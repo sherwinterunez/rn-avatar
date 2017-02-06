@@ -1,0 +1,24 @@
+{
+  "name": "rn-avatar",
+  "version": "0.1.0",
+  "description": "react native avatar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sherwinterunez/rn-avatar.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "avatar"
+  ],
+  "author": "Sherwin Terunez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sherwinterunez/rn-avatar/issues"
+  },
+  "homepage": "https://github.com/sherwinterunez/rn-avatar#readme"
+}
