@@ -41,6 +41,8 @@ export default class Avatar extends Component {
     ];
 
     this.avatarColor = colors[sumChars % colors.length];
+
+    console.log({avatarColor:this.avatarColor});
   }
 
   renderInitials() {
