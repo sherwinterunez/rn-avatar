@@ -12,6 +12,9 @@ export default class Avatar extends Component {
   setAvatarColor() {
     const userName = this.props.avatarName || '';
     const name = userName.toUpperCase().split(' ');
+
+    console.log({userName:userName});
+
     if (name.length === 1) {
       this.avatarName = `${name[0].charAt(0)}`;
     } else if (name.length > 1) {
