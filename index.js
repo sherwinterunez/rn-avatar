@@ -37,7 +37,7 @@ export default class Avatar extends Component {
       '#8e44ad', // wisteria
       '#e74c3c', // alizarin
       '#1abc9c', // turquoise
-      '#2c3e50', // midnight blue
+      //'#2c3e50', // midnight blue
     ];
 
     this.avatarColor = colors[sumChars % colors.length];
