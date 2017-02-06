@@ -13,7 +13,7 @@ export default class Avatar extends Component {
     const userName = this.props.avatarName || '';
     const name = userName.toUpperCase().split(' ');
 
-    console.log({userName:userName});
+    //console.log({userName:userName});
 
     if (name.length === 1) {
       this.avatarName = `${name[0].charAt(0)}`;
@@ -42,7 +42,7 @@ export default class Avatar extends Component {
 
     this.avatarColor = colors[sumChars % colors.length];
 
-    console.log({avatarColor:this.avatarColor});
+    //console.log({avatarColor:this.avatarColor});
   }
 
   renderInitials() {
