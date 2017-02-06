@@ -53,9 +53,9 @@ export default class Avatar extends Component {
 
   render() {
 
-    if (!this.avatarColor) {
+    //if (!this.avatarColor) {
       this.setAvatarColor();
-    }
+    //}
 
     return (
       <TouchableOpacity
