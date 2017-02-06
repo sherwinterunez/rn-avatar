@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React, { Component } from 'react';
 import {
   Image,
   Text,
@@ -47,7 +47,7 @@ export default class Avatar extends Component {
       </Text>
     );
   }
-  
+
   render() {
 
     if (!this.avatarColor) {
